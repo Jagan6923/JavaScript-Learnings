@@ -2,8 +2,16 @@ import { Schema, model } from "mongoose";
 
 // write your schema
 const schema = new Schema({
-    title: String,
-    description: String
+    title: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    description: {
+        type: String,
+        required: true,
+        unique: true
+    }
 })
 
 // create your model
