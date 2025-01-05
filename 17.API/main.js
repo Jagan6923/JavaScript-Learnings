@@ -5,6 +5,9 @@ const app = express();
 
 const port = 6969
 
+// Data understanding middlewar
+app.use(express.json());
+
 connectDB();
 
 app.get('/', (req, res) => {
