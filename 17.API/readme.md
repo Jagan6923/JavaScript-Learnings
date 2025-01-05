@@ -13,9 +13,3 @@
 2. NoSQL - (MongoDB, Cassandra, Redis)
 
 
-username: jagan
-password: asdfghjkl123456789
-mongodb+srv://jagan:asdfghjkl123456789@cluster0.va94j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-
-asdfghjkl123456789
